@@ -1,0 +1,7 @@
+<!-- dialog.component.html -->
+<div class="dialog-container">
+    <h1 class="dialog-title">Edit</h1>
+    <app-add-item-form [item]="item" (formSubmit)="onSubmitted($event)"></app-add-item-form>
+    <div class="x-icon-button" (click)="onXButtonClick()"></div>
+</div>
+  

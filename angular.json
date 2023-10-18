@@ -95,10 +95,16 @@
             "styles": [
               "src/styles.scss"
             ],
+            "stylePreprocessorOptions": {
+              "includePaths": []
+            },
             "scripts": []
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "117abc15-2ca2-43ec-9b0b-f9ab62802dbd"
   }
 }
